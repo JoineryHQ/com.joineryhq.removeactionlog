@@ -24,7 +24,7 @@ function civicrm_api3_job_Removeactionlog($params) {
   // Initialize the ActionLog table
   $action_log = new CRM_Core_DAO_ActionLog();
   // Only delete entries more than a month older than the current day
-  $action_log->whereAdd('action_date_time < DATE(DATE_ADD(NOW(), INTERVAL -1 MONTH)');
+  $action_log->whereAdd('action_date_time < DATE(DATE_ADD(NOW(), INTERVAL -1 MONTH))');
   // Only delete rows that are from the Membership table
   $action_log->whereAdd("entity_table = '" . CRM_Member_DAO_Membership::getTableName() . "'");
 
