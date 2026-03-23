@@ -10,9 +10,9 @@
   </maintainer>
   <urls>
     <url desc="Original Agileware Extension Page">https://bitbucket.org/agileware/au.com.agileware.removeactionlog</url>
-    <url desc="Forked Joinery Extension Page">https://bitbucket.org/twomice/au.com.agileware.removeactionlog</url>
-    <url desc="Documentation">https://bitbucket.org/twomice/au.com.agileware.removeactionlog</url>
-    <url desc="Support">https://bitbucket.org/twomice/au.com.agileware.removeactionlog</url>
+    <url desc="Forked Joinery Extension Page">https://github.comJoineryHQ/com.joineryhq.removeactionlog</url>
+    <url desc="Documentation">https://github.comJoineryHQ/com.joineryhq.removeactionlog</url>
+    <url desc="Support">https://github.comJoineryHQ/com.joineryhq.removeactionlog/issues</url>
     <url desc="Licensing">http://www.gnu.org/licenses/gpl-3.0.html</url>
   </urls>
   <releaseDate>2017-01-14</releaseDate>
